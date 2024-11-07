@@ -1,0 +1,13 @@
+hsv_h: 0.015           # Adjusts hue
+hsv_s: 0.7             # Adjusts saturation
+hsv_v: 0.4             # Adjusts brightness
+degrees: 0.0           # Rotation angle
+translate: 0.1         # Translation factor
+scale: 0.5             # Scaling factor
+shear: 0.0             # Shear angle
+perspective: 0.0       # Perspective transformation
+flipud: 0.0            # Flip upside down
+fliplr: 0.5            # Flip left-right
+mosaic: 1.0            # Mosaic augmentation (1.0 means enabled)
+mixup: 0.0             # Mixup augmentation (disabled here)
+erasing: 0.4           # Random erasing (chance of applying random erasing)

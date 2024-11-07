@@ -1,0 +1,12 @@
+path: C:\Users\PC\Desktop\IAT360ComputerVision\Datasets\DRONE DATA\Final_data
+train: C:\Users\PC\Desktop\IAT360ComputerVision\Mydrive\Datasets\DRONE DATA\Final_data\images\train
+val: C:\Users\PC\Desktop\IAT360ComputerVision\Mydrive\Datasets\DRONE DATA\Final_data\images\val
+
+# Classes
+nc: 1  # replace based on your dataset's number of classes
+
+# Class names
+names:
+  0: Drone
+augment:
+  file: C:\Users\PC\Desktop\IAT360ComputerVision\augmentation.yaml  # Add path to your augmentation settings file
